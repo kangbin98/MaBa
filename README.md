@@ -1,4 +1,4 @@
-# MaBa: Cross-Modal Reasoning with Multi-level Alignment for Text-to-Image Person Retrieval
+# MaBa: A Multi-Level Associative Bias Adjustment Framework for Text-based Person Retrieval
 
 [![GitHub](https://img.shields.io/badge/license-MIT-green)](https://github.com/yourusername/MaBa/blob/main/LICENSE) 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maba-cross-modal-reasoning-with-multi-level/nlp-based-person-retrival-on-cuhk-pedes)](https://paperswithcode.com/sota/nlp-based-person-retrival-on-cuhk-pedes?p=maba-cross-modal-reasoning-with-multi-level)
@@ -73,12 +73,12 @@ python evaluate.py \
 #### CUHK-PEDES dataset
 |     Method      |     Backbone     |  Rank-1   |  Rank-5   |  Rank-10  |    mAP    |
 | :-------------: | :--------------: | :-------: | :-------: |:---------:|:---------:|
-|     CMMT      |    RN50/LSTM    |  57.10		  |     78.14    |   85.23   |     -     | 
+|     CMMT        |    RN50/LSTM    |  57.10		  |     78.14    |   85.23   |     -     | 
 |      SSAN       |    RN50/LSTM     |   61.50		  |   81.19  |   87.51   |     -     |
-|  IVT    |  ViT-B-16/BERT   |   65.59   |   83.11  |   88.19   |     -     |     -     |
-|      CFine				      | ViT-B-16/BERT  |   69.57   |   85.93   |   91.15   |     -     |
-|       IRRA			  |  ViT-B-16   |   73.38	  |   89.93	  |   93.71   |   66.13   |
-|      BiLMa				     |  ViT-B-16   |  74.03   |   89.59  |   93.62   |  	66.57   |
+|       IVT       |  ViT-B-16/BERT   |   65.59   |   83.11  |   88.19   |     -     |     -     |
+|      CFine	| ViT-B-16/BERT  |   69.57   |   85.93   |   91.15   |     -     |
+|       IRRA	|  ViT-B-16   |   73.38	  |   89.93	  |   93.71   |   66.13   |
+|      BiLMa      |  ViT-B-16   |  74.03   |   89.59  |   93.62   |  	66.57   |
 |    **CLIP**     | ViT-B-16|  66.54   |   86.94		 |   91.77   |   62.69   |
 | **MaBa (Ours)** | ViT-B-16 | **** | **76.13** | **91.94** | **95.53** | **67.77** |
 
